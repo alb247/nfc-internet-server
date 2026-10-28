@@ -2,8 +2,11 @@
   "name": "nfc-internet-demo-server",
   "version": "1.0.0",
   "private": true,
-  "description": "Demo server for exchanging generic NFC/tag text between two phones over the internet",
   "main": "server.js",
-  "scripts": {"start": "node server.js"},
-  "engines": {"node": ">=20"}
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
